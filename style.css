@@ -1,0 +1,64 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-link {
+    margin-left: 15px;
+    font-size: 1rem;
+}
+
+/* Hero section */
+#home {
+    padding: 90px 0;
+}
+
+#home h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#home p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Product Cards */
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn-primary {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
