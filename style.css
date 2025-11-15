@@ -17,6 +17,9 @@ body {
 /* Hero section */
 #home {
     padding: 90px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    color:purple;
 }
 
 #home h1 {
@@ -55,6 +58,18 @@ body {
     padding: 10px 20px;
     font-size: 1rem;
     border-radius: 30px;
+    cursor:pointer;
+}
+
+#add-review {
+background-color: whitesmoke;
+border-top: 2px ;
+}
+#add-review h3{
+    color: aliceblue;
+}
+#thankyoumessage{
+    font-weight: bold;
 }
 
 /* Footer */
@@ -62,3 +77,4 @@ footer {
     margin-top: 40px;
     font-size: 0.9rem;
 }
+

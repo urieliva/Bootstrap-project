@@ -35,11 +35,48 @@
     <a href="#products" class="btn btn-primary btn-lg">Shop Now</a>
   </div>
 </section>
+<!-- Beauty shoproducts -->
+<h2>Our beauty shop products</h2>
+<button class="btn btn-success"
+onclick="showProducts">Show products</button>
+  <li>>Beauty blender</li>
+  <li>>Eyeliner</li>
+  <li>>Lipstick</li>
+  <li>>Eye glitter</li>
+  <li>>Eye lashes</li>
+  <li>>Hair bands</li>
+  <li>>Hair clip</li>
+  <li>>Hair oil</li>
+  <li>>Hair shampoo</li>
+  <li>>Makeup brush</li>
+  <li>>Makeup remover</li>
+  <li>>Manicure kit</li>
+  <li>>Perfume</li>
+  <li>>Pocket mirror</li>
+  <li>>Shower gel</li>
+  <li>>Treatment serum</li>
+  <li>>Wig</li>
+  <li>>Curling iron</li>
+  <script>
+  function showProducts() {
+    document.getElementById("product list").style.display="block";
+  }
+</script>
+<!-- Add this to the <head> (if Bootstrap not already loaded) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+  /* optional: make card images same height and nicely cropped */
+  .card-img-top {
+    height: 220px;            /* adjust as you want */
+    object-fit: cover;
+  }
+</style>
+
 <!-- Products Section -->
 <section id="products" class="py-5">   
   <div class="container">
     <h2 class="text-center mb-4">Products</h2>
-    <div class="row g-4">
     <!-- Product Card 1 -->
       <div class="col-md-3">
         <div class="card h-100">
@@ -85,7 +122,249 @@
           </div>
         </div>
       </div>
+   </div>
+  </div>
+  <div> <!--/.row-->
+  </div> <!--/.container-->
+  <!-- Product card 5 -->
+   <div class="col-md-3">
+        <div class="card h-100">
+          <img src="static/images/hair oil.jpeg" class="card-img-top" alt="Hair oil">
+          <div class="card-body text-center">
+            <h5 class="card-title">Hair oil</h5>
+            <p class="card-text">KSH.700</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Product card 6 -->
+   <div class="col-md-3">
+        <div class="card h-100">
+          <img src="static/images/eye lashes.jpeg" class="card-img-top" alt="Eye lashes">
+          <div class="card-body text-center">
+            <h5 class="card-title">Eye lashes</h5>
+            <p class="card-text">KSH.900</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      </div>
+  </div>
+<!-- Product card 7 -->
+  <div class="col-md-3">
+        <div class="card h-100">
+          <img src="static/images/hair bands.jpeg" class="card-img-top" alt="Hair oil">
+          <div class="card-body text-center">
+            <h5 class="card-title">Hair bands</h5>
+            <p class="card-text">KSH.200</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Product card 8 -->
+  <div class="col-md-3">
+        <div class="card h-100">
+          <img src="static/images/hair clip.jpeg" class="card-img-top" alt="Hair clip">
+          <div class="card-body text-center">
+            <h5 class="card-title">Hair clip</h5>
+            <p class="card-text">KSH.180</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div> <!--/.row-->
+  </div> <!--/.container-->
+  <!-- Product card 9 -->
+  <div class="col-md-3">
+        <div class="card h-100">
+          <img src="static/images/hair shampoo.jpeg" class="card-img-top" alt="Hair shampoo">
+          <div class="card-body text-center">
+            <h5 class="card-title">Hair shampoo</h5>
+            <p class="card-text">KSH.1200</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Product card 10 -->
+  <div class="col-md-3">
+        <div class="card h-100">
+          <img src="static/images/makeup brushes.jpeg" class="card-img-top" alt="Makeup brushes">
+          <div class="card-body text-center">
+            <h5 class="card-title">Makeup brushes</h5>
+            <p class="card-text">KSH.1800</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Product card 11 -->
+  <div class="col-md-3">
+        <div class="card h-100">
+          <img src="static/images/makeup remover.jpeg" class="card-img-top" alt="Makeup remover">
+          <div class="card-body text-center">
+            <h5 class="card-title">Makeup remover</h5>
+            <p class="card-text">KSH.275</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Product card 12 -->
+  <div class="col-md-3">
+        <div class="card h-100">
+          <img src="static/images/manicure kit.jpeg" class="card-img-top" alt="Manicure kit">
+          <div class="card-body text-center">
+            <h5 class="card-title">Manicure kit</h5>
+            <p class="card-text">KSH.2500</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div> <!--/.row-->
+  </div> <!--/.container-->
+  <!-- Product card 13 -->
+  <div class="col-md-3">
+        <div class="card h-100">
+          <img src="static/images/perfume.jpeg" class="card-img-top" alt="Perfume">
+          <div class="card-body text-center">
+            <h5 class="card-title">Perfume</h5>
+            <p class="card-text">KSH.1200</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Product card 14 -->
+  <div class="col-md-3">
+        <div class="card h-100">
+          <img src="static/images/pocket mirror.jpeg" class="card-img-top" alt="Pocket mirror">
+          <div class="card-body text-center">
+            <h5 class="card-title">Pocket mirror</h5>
+            <p class="card-text">KSH.100</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Product card 15 -->
+  <div class="col-md-3">
+        <div class="card h-100">
+          <img src="static/images/shower gel.jpeg" class="card-img-top" alt="Shower gel">
+          <div class="card-body text-center">
+            <h5 class="card-title">Shower gel</h5>
+            <p class="card-text">KSH.700</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Product card 16 -->
+  <div class="col-md-3">
+        <div class="card h-100">
+          <img src="static/images/treatment serum.jpeg" class="card-img-top" alt="Treatment serum">
+          <div class="card-body text-center">
+            <h5 class="card-title">Treatment serum</h5>
+            <p class="card-text">KSH.500</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div> <!--/.row-->
+  </div> <!--/.container-->
+  <!-- Product card 17 -->
+  <div class="col-md-3">
+        <div class="card h-100">
+          <img src="static/images/wig.jpeg" class="card-img-top" alt="Wig">
+          <div class="card-body text-center">
+            <h5 class="card-title">Wig</h5>
+            <p class="card-text">KSH.1500</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Product card 18 -->
+  <div class="col-md-3">
+        <div class="card h-100">
+          <img src="static/images/curling iron.jpeg" class="card-img-top" alt="Curling iron">
+          <div class="card-body text-center">
+            <h5 class="card-title">Curling iron</h5>
+            <p class="card-text">KSH.900</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div> <!--/.row-->
+  </div> <!--/.container-->
+</section>
+<section id="contact" class="contact-section">
+  <h2>Book an Appointment</h2>
+  <p>Fill in your details and we’ll get back to you shortly!</p>
 
+  <form action="mailto:yourbeautyshop@gmail.com" method="post" enctype="text/plain">
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <label for="message">Message / Appointment Request:</label><br>
+    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+<!-- Review section -->
+ <section id="add-review" class="py-5">
+  <div class="container">
+    <h3 class="text-center mb-4 fw-bold text-primary">Write a Review</h3>
+
+    <form id="reviewForm" class="row g-3">
+      <div class="col-md-6">
+        <label for="rating" class="form-label">Your Rating</label>
+        <select id="rating" class="form-select" required>
+          <option value="">Choose...</option>
+          <option>★★★★★</option>
+          <option>★★★★☆</option>
+          <option>★★★☆☆</option>
+          <option>★★☆☆☆</option>
+          <option>★☆☆☆☆</option>
+        </select>
+      </div>
+      <div class="col-12">
+        <label for="message" class="form-label">Your Review</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Write your review..." required></textarea>
+      </div>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-primary px-4">Submit Review</button>
+      </div>
+    </form>
+
+    <div id="thankYouMessage" class="alert alert-success mt-4 text-center d-none" role="alert">
+      Thank you for your feedback! 🌸
     </div>
   </div>
 </section>
